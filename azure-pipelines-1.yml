@@ -42,7 +42,7 @@ steps:
   inputs:
    apkFiles: '**/*.apk'
    apksign: true
-   apksignerKeystoreFile: key_109.jks
+   apksignerKeystoreFile: testkey.jks
    apksignerKeystorePassword: $(androidKeystorePassword)
    apksignerKeystoreAlias: $(androidKeystoreAlias)
    apksignerKeyPassword: $(androidKeystorePrivateKeyPassword)
